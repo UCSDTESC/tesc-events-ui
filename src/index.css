@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e0e0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: local('Lato-Bold'), url('./assets/fonts/Lato-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Thin";
+  src: local('Lato-Thin'), url('./assets/fonts/Lato-Thin.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: local('Lato-Light'), url('./assets/fonts/Lato-Light.ttf') format("truetype");
 }
