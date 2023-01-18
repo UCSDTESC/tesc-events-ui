@@ -1,22 +1,16 @@
 import React from "react"
+import { CSSProperties } from "styled-components";
 import { RESOURCES } from "../assets/css/Resources";
 import EventCard from "../components/EventCard";
 import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+import "../index.css";
 
 const HomePage = (): JSX.Element => {
-  const listStyle = {
-    paddingTop: "80px",
-    listStyle: "none",
-    display: "grid",
-    gap: "40px",
-    gridTemplateColumns: `repeat(auto-fit, minmax(${RESOURCES.eventCardWidth}, 1fr))`,
-    maxWidth: "80%",
-    margin: "auto"
-  }
   return (
-    <div className="home-page">
+    <div className="container">
       <Header />
-      <div style={ listStyle }>
+      <div className="main-content">
         <EventCard />
         <EventCard />
         <EventCard />

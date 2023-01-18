@@ -5,19 +5,17 @@ import "../assets/css/Sidebar.css";
 
 const Sidebar = (): JSX.Element => {
   return (
-    <div>
-      <Menu customCrossIcon={<img src={require("../assets/images/close.png")} alt="close" />}>
-        <h1 style={{ margin: 0, color: RESOURCES.tescblue }}>tesc.events</h1>
-        <a className="menu-item" href="/">
-          Home
-        </a>
-        <a className="menu-item" href="/">
-          My Events
-        </a>
-        <a className="menu-item" href="/">
-          Profile
-        </a>
-      </Menu>
+    <div className="sidebar">
+      <h1 style={{ margin: 0, color: RESOURCES.tescblue }}>tesc.events</h1>
+      <a className="menu-item" href="/">
+        Home
+      </a>
+      <a className="menu-item" href="/">
+        My Events
+      </a>
+      <a className="menu-item" href="/">
+        Profile
+      </a>
     </div>
   );
 };
