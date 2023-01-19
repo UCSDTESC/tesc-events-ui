@@ -2,8 +2,55 @@
   position: absolute;
   width: 244px;
   height: 100%;
-  background-color: #E0E0E0;
-  box-shadow: -2px -2px 14px 1px white;
-  box-shadow: 3px 3px 8px 0px #747374;
-  box-shadow: 3px 3px 15px 0px #bebebe;
+  display: grid;
+  grid-template-rows: 100px 1fr 80px;
+}
+
+.sidebar-title {
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  align-self: center;
+  text-align: center;
+
+  color: var(--tesc-blue);
+  font-family: 'Lato-Thin';
+  font-size: 26px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar-logout {
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+
+  width: 200px;
+  height: 30px;
+
+  color: var(--tesc-blue);
+  font-family: "Lato-Regular";
+  border-radius: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--inactive);
+  font-family: "Lato";
+  height: 40px;
+  align-content: center;
+}
+
+a:active {
+  color: var(--tesc-blue);
 }

@@ -1,21 +1,22 @@
 import React from "react";
-import { slide as Menu } from "react-burger-menu";
-import { RESOURCES } from "../assets/css/Resources";
 import "../assets/css/Sidebar.css";
 
 const Sidebar = (): JSX.Element => {
   return (
-    <div className="sidebar">
-      <h1 style={{ margin: 0, color: RESOURCES.tescblue }}>tesc.events</h1>
-      <a className="menu-item" href="/">
-        Home
-      </a>
-      <a className="menu-item" href="/">
-        My Events
-      </a>
-      <a className="menu-item" href="/">
-        Profile
-      </a>
+    <div className="sidebar outset">
+      <h1 className="sidebar-title">tesc.events</h1>
+      <nav className="sidebar-nav">
+        <a className="menu-item" href="#">
+          Home
+        </a>
+        <a className="menu-item" href="#">
+          My Events
+        </a>
+        <a className="menu-item" href="#">
+          Profile
+        </a>
+      </nav>
+      <button className="sidebar-logout">Logout</button>
     </div>
   );
 };
