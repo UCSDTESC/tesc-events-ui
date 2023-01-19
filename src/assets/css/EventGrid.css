@@ -1,0 +1,7 @@
+.event-grid {
+    list-style: none;
+    display: grid;
+    column-gap: 40px;
+    row-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}

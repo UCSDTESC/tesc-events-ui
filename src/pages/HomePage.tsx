@@ -1,20 +1,14 @@
-import React from "react"
-import { CSSProperties } from "styled-components";
-import { RESOURCES } from "../assets/css/Resources";
-import EventCard from "../components/EventCard";
-import Header from "../components/Header";
+import EventGrid from "../components/EventGrid";
 import Sidebar from "../components/Sidebar";
 import "../index.css";
 
 const HomePage = (): JSX.Element => {
   return (
     <div className="container">
-      <Header />
+      <Sidebar />
       <div className="main-content">
-        <EventCard />
-        <EventCard />
-        <EventCard />
-        <EventCard />
+        <h1 className="content-title">Upcoming Events</h1>
+        <EventGrid />
       </div>
     </div>
   )

@@ -1,0 +1,21 @@
+:root {
+  --card-width: 360px;
+  --card-height: 262px;
+  --card-img-height: 175px;
+}
+
+.card {
+  width: var(--card-width);
+  height: var(--card-height);
+  background: var(--light-gray);
+  border-radius: 25px;
+  margin: auto;
+}
+
+.card-img {
+  width: var(--card-width);
+  height: var(--card-img-height);
+  background-color: var(--tesc-blue);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
