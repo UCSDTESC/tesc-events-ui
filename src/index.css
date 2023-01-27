@@ -22,9 +22,9 @@ code {
 .inset {
   background-color: var(--light-gray);
   box-shadow: 
-  1px 1px 16px -13px #1e1e1e,
-  2px 2px 5px 0px #bebebe,
-  -3px -3px 5px 0px #fff;
+  inset 1px 1px 16px -13px #1e1e1e,
+  inset 2px 2px 5px 0px #bebebe,
+  inset -3px -3px 5px 0px #fff;
 }
 
 button, .outset {
