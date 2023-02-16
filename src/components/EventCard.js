@@ -1,25 +1,26 @@
 import React from "react";
 import "../assets/css/EventCard.css";
 
-const EventCard = (): JSX.Element => {
-
+const EventCard = ({ eventInfo }) => {
+  // Styling, ignore me
   const textContainerStyle = {
     display: "flex",
-    flexDirection: "column" as "column",
+    flexDirection: "column",
     justifyContent: "start",
     gap: "5px",
     height: "87px",
     paddingLeft: "10px",
     paddingTop: "8px"
-  } as React.CSSProperties
+  }
 
   return (
     <div className="card outset">
       <div className="card-img"></div>
       <div style={textContainerStyle}>
-        <div>EVENT NAME</div>
-        <div>EVENT DATE</div>
-        <div>EVENT LOCATION</div>
+        {/* Since we have eventInfo prop, we can simply display the information that we want*/}
+        <div>{eventInfo.title}</div>
+        <div>{eventInfo.start}</div>
+        <div>{eventInfo.description}</div>
       </div>
     </div>
   );
