@@ -22,7 +22,7 @@ const HomePage = () => {
     axios.get("https://3ae918d3-e290-4f43-9cab-5fd0ae360b30.mock.pstmn.io/api/events")
       // Wait for the result...
       .then((result) => {
-        // ...then set event state hook with the
+        // ...then set event state hook with the data
         setEvents(result.data);
       });
   }, []);
