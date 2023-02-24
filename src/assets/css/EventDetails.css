@@ -1,0 +1,121 @@
+
+.popup-container {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    display: inline-block;
+    background-color: #E0E0E0;
+
+}
+
+.popup-content {
+    display: flex;
+    height: 85%;
+    max-width: 100%;
+}
+
+.popup-header {
+    margin:0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    background-color: #11426B;
+    color: white;
+    justify-content: center;
+}
+
+.popup-description {
+    flex: 1;
+    display: inline;
+    display: inline-block;
+    padding: 1em;
+    width:50%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 7px 4px #888888;;
+}
+
+.popup-interactive {
+    flex: 1;
+    padding: 1em;
+    width:50%;
+    max-height: 100%;
+
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 7px 4px #888888;
+
+}
+.title {
+    font-size: 1.7vw;
+}
+.date {
+    font-size: 1.3vw;
+}
+.location {
+    font-size: 1.3vw;
+}
+.description {
+    text-overflow: hidden;
+    overflow: scroll;
+    word-wrap: break-word;
+    max-width: 100%;
+    max-height: 60%;
+    font-size: 1vw;
+}
+.text-response {
+    resize: none;
+    width: 100%;
+    height: 35%;
+    border-radius: 4px;
+    box-shadow: 
+    inset 0 0 7px 4px #a2a1a1;
+    background-color: #E0E0E0;
+}
+.upload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 
+    inset 0 0 7px 4px #a2a1a1;
+    background-color: #E0E0E0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.upload-button {
+    width: 30%;
+    height: 60%;
+    font-size: 16px;
+    color: #11426B;
+    border-radius: 3px;
+}
+.upload-text {
+    color: #747374;
+}
+.submit-div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 6%;
+    padding: 5px;
+}
+
+.submit-button {
+    width: 50%;
+    min-height: 100%;
+    border-radius: 5px;
+    background-color: #11426B;
+    color: white;
+}
