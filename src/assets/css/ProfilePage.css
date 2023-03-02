@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.some-page-wrapper {
+.wrapper {
     display: flex;  
     flex-direction: column;
     width: 100%;
