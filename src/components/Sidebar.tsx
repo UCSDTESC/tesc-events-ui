@@ -5,6 +5,7 @@ const Sidebar = (): JSX.Element => {
   return (
     <div className="sidebar outset">
       <h1 className="sidebar-title">tesc.events</h1>
+      <h1 className="sidebar-title">AWESOME!</h1>
       <nav className="sidebar-nav">
         <a className="menu-item" href="#">
           Home
