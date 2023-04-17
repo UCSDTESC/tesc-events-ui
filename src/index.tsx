@@ -7,7 +7,7 @@ import ProfilePage from './pages/ProfilePage';
 const App = (): JSX.Element => {
   return (
     <div>
-      <ProfilePage />
+      <HomePage/>
     </div>
   );
 };
