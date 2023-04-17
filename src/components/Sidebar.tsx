@@ -1,6 +1,5 @@
 import React from "react";
-import "../assets/css/ProfilePage.css";
-import ProfilePage from "../pages/ProfilePage";
+import "../assets/css/Sidebar.css";
 
 const Sidebar = (): JSX.Element => {
   return (
