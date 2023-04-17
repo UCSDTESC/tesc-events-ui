@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Sidebar from "../components/Sidebar";
 import "../index.css";
 import "../assets/css/Sidebar.css"
+import "../assets/css/ProfilePage.css"
 
 const ProfilePage = (): JSX.Element => {
     const [firstname, setFirst] = useState<string>("Default");
@@ -80,7 +81,7 @@ const ProfilePage = (): JSX.Element => {
     }
     
     return (
-        <div className="container">
+        <div className="profile-container">
             <Sidebar />
             <div className='wrapper'>
                 <div className="main-content">
