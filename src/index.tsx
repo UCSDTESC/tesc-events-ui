@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import HomePage from './pages/HomePage';
-import ProfilePage from './pages/ProfilePage';
+import Register from './pages/RegistrationPage';
 
 const App = (): JSX.Element => {
   return (
     <div>
-      <HomePage/>
+      <Register/>
     </div>
   );
 };

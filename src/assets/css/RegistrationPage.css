@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.column{
+    display: flex;
+    height: 693px;
+    width: 411px;  
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-content: flex-start;
+    border-radius: 25px;
+    
+}
+
+.Save-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height:120px;
+    flex: 2
+
+    
+}
+.button {
+    background-color: #11426B;
+    color: white;
+    align-self: center;
+    width: 258px;
+    height: 44px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.one-column {
+    height: 450px;
+    width: 390px;
+    border-radius: 25px;
+}
+
+.text-input {
+    align-self: center;
+    width: 155px;
+    padding: 12px 20px;
+    margin: 15px 20px;
+    width: 65%;
+    box-sizing: border-box;
+    border: none;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+  }
+
+.main-content { 
+    margin-left: 25px;
+    font-weight: normal;
+}
+
+.registration-form{
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-title{
+    align-self: center;
+    width : 100%;
+    text-align: center;
+    font-size: 26px;
+    color: #11426B;
+    height: 30px;
+    justify-content: center;
+    padding: 60px;
+}
+
+.Back-button{
+    font-size: 16px;
+    color: #747374;
+    align-self: center;
+    justify-self: center;
+    text-decoration: underline;
+    box-shadow: none;
+    background: none;
+    cursor: pointer;
+}
+
+.Back-button-cont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height:20px;
+
+}
